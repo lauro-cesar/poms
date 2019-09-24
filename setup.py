@@ -5,16 +5,25 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="poms",
-    version="0.0.3",
+    version="0.0.10",
     author="Lauro Cesar",
     author_email="lauro@dlceducationalgames.com",
-    description="Python Async IO microservices",
+    description="Python 3 Omnidirectional microservices",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lauro-cesar/poms",
+    project_urls={
+    "Documentation":"https://github.com/lauro-cesar/poms/wiki",
+    "GitHub Sources": "https://github.com/lauro-cesar/poms",
+    "Tracker": "https://github.com/lauro-cesar/poms/projects/",
+    "Developer Story":"https://stackoverflow.com/story/lauro-cesar",
+    },
+    install_requires=['websockets'],
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
+        "Intended Audience :: Developers",
+        "Development Status :: 3 - Alpha",
         "License :: OSI Approved :: Apache Software License",
         "Operating System :: OS Independent",
     ],
