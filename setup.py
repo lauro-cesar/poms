@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="poms",
-    version="0.0.10",
+    version="0.0.11",
     author="Lauro Cesar",
     author_email="lauro@dlceducationalgames.com",
     description="Python 3 Omnidirectional microservices",
@@ -28,4 +28,5 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
+    test_loader='unittest:TestLoader',
 )
