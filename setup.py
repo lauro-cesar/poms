@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="poms",
-    version="0.0.11",
+    version="0.0.13",
     author="Lauro Cesar",
     author_email="lauro@dlceducationalgames.com",
     description="Python 3 Omnidirectional microservices",
@@ -17,7 +17,7 @@ setuptools.setup(
     "GitHub Sources": "https://github.com/lauro-cesar/poms",
     "Tracker": "https://github.com/lauro-cesar/poms/projects/",
     "Developer Story":"https://stackoverflow.com/story/lauro-cesar",
-    },
+    },    
     install_requires=['websockets'],
     packages=setuptools.find_packages(),
     classifiers=[

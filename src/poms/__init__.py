@@ -3,7 +3,6 @@ name = "poms"
 from .msauth import *
 from .msclient import *
 from .msserver import *
-from .version import version as __version__  # noqa
 
 
 __all__ = (
