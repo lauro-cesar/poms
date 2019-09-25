@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="poms",
-    version="0.0.14",
+    version="0.0.17",
     author="Lauro Cesar",
     author_email="lauro@dlceducationalgames.com",
-    description="Python 3 Omnidirectional microservices",
+    description="Python3 Omnidirectional microservices",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/lauro-cesar/poms",
