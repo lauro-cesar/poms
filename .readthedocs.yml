@@ -1,5 +1,5 @@
 build:
-  image: latest
+  image: master
 python:
   version: 3.7
 
