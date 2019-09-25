@@ -1,6 +1,0 @@
-build:
-  image: master
-python:
-  version: 3.7
-
-requirements_file: docs/requirements.txt
